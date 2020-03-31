@@ -1,0 +1,23 @@
+table {
+  margin: 1rem 0;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+thead {
+  border-bottom: solid thin;
+}
+
+tr:nth-child(even) {
+  // background: $color-grey-light;
+}
+
+td,
+th {
+  vertical-align: top;
+  padding: 0.5em 0 0.5em 0.75em;
+
+  &:last-child {
+    padding-right: 0.75em;
+  }
+}

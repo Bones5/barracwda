@@ -1,0 +1,49 @@
+.site-wrapper {
+  display: grid;
+  grid-template-rows: min-content min-content 1fr min-content;
+  grid-template-areas: "header" "menu" "content" "footer";
+  min-height: 100vh;
+}
+
+.siteHeader-wrapper {
+  background: $color-yellow;
+  color: white;
+  overflow: hidden;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  grid-area: header;
+  border-bottom: 0.2em solid $color-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.siteContent-wrapper {
+  grid-area: content;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.siteContent {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 60rem;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.75);
+  font-size: 1.2em;
+}
+
+.siteFooter-wrapper {
+  background: $color-yellow;
+  color: white;
+  overflow: hidden;
+  padding: 1rem;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  grid-area: footer;
+  border-top: 0.2em solid $color-blue;
+}

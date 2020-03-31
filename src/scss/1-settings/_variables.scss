@@ -1,0 +1,17 @@
+@import url("https://use.typekit.net/sej7doj.css");
+
+@mixin font-normal() {
+  font-family: futura-pt;
+  font-weight: 400;
+}
+@mixin font-bold() {
+  font-family: futura-pt;
+  font-weight: 700;
+}
+
+$color-blue: #49c5d4;
+$color-yellow: #ffea47;
+$color-pink: #dc3c8f;
+
+$color-darkBlue: #217c88;
+$color-darkYellow: #eddd65;

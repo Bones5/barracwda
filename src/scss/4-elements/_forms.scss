@@ -1,0 +1,28 @@
+.field-wrapper {
+  margin-bottom: 2em;
+  max-width: 40em;
+  position: relative;
+}
+
+label {
+  @include font-bold;
+  margin: 0.5em 0;
+  display: block;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="time"],
+input[type="search"],
+textarea {
+  border: solid thin black;
+  display: block;
+  width: 100%;
+  padding: 0.75em 1em;
+
+  -webkit-appearance: unset;
+}
